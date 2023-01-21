@@ -1,9 +1,12 @@
-export const add = (a: number, b: number) => {
-  return a + b
+/**
+ * Check if variable has value. (if it's not undefined or null)
+ */
+export const hasValue = (variable: any) => {
+  return ![undefined, null].includes(variable)
 }
 
 /**
- * Invert JS object - Switch place between keys and values
+ * Invert JS object - Switch place between keys and values.
  */
 export const invertObject = (obj: object) => {
   const entries = Object.entries(obj)

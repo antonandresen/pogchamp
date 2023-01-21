@@ -30,7 +30,7 @@ Install pogchamp with pnpm
     
 ## Authors
 
-- [@anton1337](https://www.github.com/anton1337)
+- [@antonandresen](https://www.github.com/antonandresen)
 
 
 ## Features
