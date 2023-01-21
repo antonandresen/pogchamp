@@ -10,7 +10,10 @@
     "build": "tsup index.ts --format cjs,esm --dts",
     "release": "pnpm run build && pnpm changeset publish"
   },
-  "keywords": [],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": ["utils", "utility"],
   "author": "Anton Andrésen <anton.andresen@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
