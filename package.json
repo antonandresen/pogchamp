@@ -6,8 +6,9 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
+    "lint": "tsc",
     "build": "tsup index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "release": "pnpm run build && pnpm changeset publish"
   },
   "keywords": [],
   "author": "Anton Andrésen <anton.andresen@hotmail.com>",
