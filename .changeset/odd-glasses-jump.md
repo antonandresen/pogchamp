@@ -1,5 +1,0 @@
----
-"pogchamp": patch
----
-
-Initial changes
