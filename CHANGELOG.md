@@ -1,5 +1,11 @@
 # pogchamp
 
+## 0.3.0
+
+### Minor Changes
+
+- 6e8c890: Added clamp function
+
 ## 0.2.0
 
 ### Minor Changes
