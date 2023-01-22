@@ -1,6 +1,6 @@
 {
   "name": "pogchamp",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "blazing fast utility library",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
