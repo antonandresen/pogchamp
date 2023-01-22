@@ -1,74 +1,52 @@
 
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
+<p align="center">A blazing fast utils library for node.js</p>
+
+<p align="center">
+    <a href="https://antonandresen.tech/"><b>Website</b></a> •
+    <a href="https://antonandresen.tech/"><b>Documentation</b></a>
+</p>
+
+<div align="center">
+
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-# pogchamp
 
-A blazing fast utils library.
-
-
+</div>
 
 ## Installation
 
-Install pogchamp with npm
+Using npm:
 
 ```bash
   npm install pogchamp
 ```
 
-Install pogchamp with yarn
+Using yarn:
 
 ```bash
   yarn add pogchamp
 ```
 
-Install pogchamp with pnpm
+Using pnpm:
 
 ```bash
   pnpm add pogchamp
 ```
-    
-## Authors
-
-- [@antonandresen](https://www.github.com/antonandresen)
-
 
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-
-## Documentation
-
-Documentation is a WIP! coming soon :)
-
-[Documentation](https://linktodocumentation)
-
+- ESM & commonJS import support
+- Well optimized helpful utility functions
 
 ## Usage/Examples
 
 ```javascript
-import Component from 'my-project'
+import { hasValue, invertObject } from 'pogchamp'
 
-function App() {
-  return <Component />
-}
+hasValue(true)
+invertObject({ name: "anton"})
 ```
-
-
-## FAQ
-
-#### Question 1
-
-Answer 1
-
-#### Question 2
-
-Answer 2
-
 
 ## Contributing
 
@@ -81,24 +59,14 @@ Please adhere to this project's `code of conduct`.
 
 ## Roadmap
 
-- Additional browser support
-
-- Add more integrations
+- Add more utils functions
+- Add proper docs for lib
 
 
 ## Tech Stack
 
 Typescript
 
+## Authors
 
-## Used By
-
-This project is used by the following companies:
-
-- Company 1
-- Company 2
-
-
-## Appendix
-
-Any additional information goes here
+- [@antonandresen](https://www.github.com/antonandresen)
