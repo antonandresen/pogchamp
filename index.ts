@@ -15,11 +15,13 @@ export const clamp = (num: number, min: number, max: number) => {
 /**
  * Invert JS object - Switch place between keys and values.
  */
-export const invertObject = (obj: object) => {
-  const invertedObj = {}
-  for (const key in obj) {
-    invertObject[obj[key]] = key
+export const invertObject = <K extends string, V>(obj: Record<K, V>) => {
+  var inverted: Record<string, K> = {}
+  for (var key in obj) {
+      if (obj.hasOwnProperty(key)) {
+          inverted[obj[key] as string] = key
+      }
   }
 
-  return invertedObj
+  return inverted
 }
