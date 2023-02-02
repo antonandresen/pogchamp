@@ -1,5 +1,12 @@
 # pogchamp
 
+## 0.3.1
+
+### Patch Changes
+
+- ac03f95: Optimize invertObject by leveraging for..in loop
+- e9d15f0: Optimize hasValue by leveraging boolean operators
+
 ## 0.3.0
 
 ### Minor Changes
