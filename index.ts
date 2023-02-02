@@ -1,8 +1,8 @@
 /**
  * Check if variable has value. (if it's not undefined or null)
  */
-export const hasValue = (variable: any) => {
-  return ![undefined, null].includes(variable)
+export const hasValue = <T>(variable: T | undefined | null): variable is T => {
+  return variable !== undefined && variable !== null
 }
 
 /**
