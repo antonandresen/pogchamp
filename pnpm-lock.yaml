@@ -12,7 +12,7 @@ importers:
         specifier: ^2.26.0
         version: 2.27.11
       '@types/jest':
-        specifier: ^29.2.6
+        specifier: ^29.5.14
         version: 29.5.14
       jest:
         specifier: ^29.3.1
