@@ -1,5 +1,11 @@
 # pogchamp
 
+## 0.4.0
+
+### Minor Changes
+
+- 6cbd5f2: added capitalize function
+
 ## 0.3.1
 
 ### Patch Changes
