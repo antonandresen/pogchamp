@@ -25,3 +25,11 @@ export const invertObject = <K extends string, V>(obj: Record<K, V>) => {
 
   return inverted
 }
+
+/**
+ * Capitalize each word in text.
+ */
+export const capitalize = (text: string) => {
+  return text.toLowerCase()
+    .replace(/(^|\s)\w/g, c => c.toUpperCase());
+}
