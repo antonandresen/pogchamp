@@ -1,5 +1,11 @@
 # pogchamp
 
+## 0.5.0
+
+### Minor Changes
+
+- added LOTS of new util functions and tests
+
 ## 0.4.0
 
 ### Minor Changes
