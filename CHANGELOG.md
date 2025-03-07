@@ -1,5 +1,11 @@
 # pogchamp
 
+## 0.6.0
+
+### Minor Changes
+
+- b2be08c: add deepMerge
+
 ## 0.5.0
 
 ### Minor Changes
