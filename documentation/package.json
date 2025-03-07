@@ -6,7 +6,7 @@
     "generate-api": "ts-node scripts/generate-api-docs.ts",
     "docusaurus": "docusaurus",
     "start": "npm run generate-api && docusaurus start",
-    "build": "npm run generate-api && docusaurus build",
+    "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
