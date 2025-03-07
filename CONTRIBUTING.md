@@ -40,8 +40,14 @@ checks are passing.
 
 Make sure to create a *changeset*, and include it in your PR, so that versioning is automatically handled.
 
+For each change:
 ```bash
 pnpm changeset
+```
+
+For final version:
+```bash
+pnpm changeset:version
 ```
 
 We enforce 100% test coverage: each line of code must be tested.
