@@ -333,3 +333,59 @@ export const memoize = <T extends (...args: any[]) => any>(
     return result;
   }) as T;
 }
+
+/**
+ * Deep merges multiple objects together
+ * 
+ * @param target - The base object to merge into (not modified)
+ * @param sources - One or more objects to merge
+ * @returns A new object with all properties merged
+ * 
+ * @example
+ * const obj1 = { a: 1, b: { c: 2 } };
+ * const obj2 = { b: { d: 3 }, e: 4 };
+ * const result = deepMerge(obj1, obj2);
+ * // result = { a: 1, b: { c: 2, d: 3 }, e: 4 }
+ * 
+ * @description
+ * - Creates a new object (doesn't modify the original objects)
+ * - Merges nested objects recursively
+ * - Later sources override earlier ones for primitive values
+ * - For objects, their properties are merged instead of replacing
+ */
+export const deepMerge = (
+  target: Record<string, any>,
+  ...sources: Record<string, any>[]
+): Record<string, any> => {
+  const output = Object.assign({}, target);
+  
+  if (sources.length === 0) return output;
+
+  sources.forEach(source => {
+    if (isObject(source)) {
+      Object.keys(source).forEach(key => {
+        if (isObject(source[key])) {
+          if (!(key in output)) {
+            output[key] = {};
+          } else if (!isObject(output[key])) {
+            output[key] = {};
+          }
+          output[key] = deepMerge(output[key], source[key]);
+        } else {
+          output[key] = source[key];
+        }
+      });
+    }
+  });
+  
+  return output;
+}
+
+/**
+ * Checks if a value is an object
+ * @param {unknown} item - The value to check
+ * @returns {boolean} True if the value is an object, false otherwise
+ */
+export const isObject = (item: unknown): item is Record<string, any> => {
+  return Boolean(item && typeof item === 'object' && !Array.isArray(item));
+}

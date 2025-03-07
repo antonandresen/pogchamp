@@ -1,0 +1,5 @@
+---
+"pogchamp": minor
+---
+
+add deepMerge
