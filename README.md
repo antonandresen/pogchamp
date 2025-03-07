@@ -1,10 +1,10 @@
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://pogchamp-utils.netlify.app/img/pogchamp.png)
 
 <p align="center">A blazing fast utils library for node.js</p>
 
 <p align="center">
-    <a href="https://antonandresen.tech/"><b>Website</b></a> •
-    <a href="https://antonandresen.tech/"><b>Documentation</b></a>
+    <a href="https://pogchamp-utils.netlify.app/"><b>Website</b></a> •
+    <a href="https://pogchamp-utils.netlify.app/"><b>Documentation</b></a>
 </p>
 
 <div align="center">
