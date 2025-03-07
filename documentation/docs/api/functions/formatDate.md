@@ -8,7 +8,7 @@
 
 > **formatDate**(`date`): `string`
 
-Defined in: [index.ts:200](https://github.com/antonandresen/pogchamp/blob/c622d552b9277eb468753e85a6bbba7d57ac30d7/index.ts#L200)
+Defined in: [index.ts:200](https://github.com/antonandresen/pogchamp/blob/566c2f0caa8b1c8b5b0295aded976a7544ca5d21/index.ts#L200)
 
 Formats a date to YYYY-MM-DD
 

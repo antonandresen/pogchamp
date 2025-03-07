@@ -8,7 +8,7 @@
 
 > **debounce**\<`T`\>(`func`, `wait`): (...`args`) => `void`
 
-Defined in: [index.ts:301](https://github.com/antonandresen/pogchamp/blob/c622d552b9277eb468753e85a6bbba7d57ac30d7/index.ts#L301)
+Defined in: [index.ts:301](https://github.com/antonandresen/pogchamp/blob/566c2f0caa8b1c8b5b0295aded976a7544ca5d21/index.ts#L301)
 
 Creates a debounced function that delays invoking func until after wait milliseconds
 
