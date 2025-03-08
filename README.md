@@ -1,5 +1,8 @@
-![Logo](https://pogchamp-utils.netlify.app/img/pogchamp.png)
+<p align="center">
+  <img src="https://pogchamp-utils.netlify.app/img/pogchamp.png" alt="Pogchamp Logo" width="300" />
+</p>
 
+<h1 align="center">Pogchamp</h1>
 <p align="center">A blazing fast utils library for node.js</p>
 
 <p align="center">
