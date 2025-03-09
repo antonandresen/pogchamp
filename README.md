@@ -52,6 +52,35 @@ hasValue(true)
 invertObject({ name: "anton"})
 ```
 
+## Companies Using Pogchamp
+
+<p align="center">
+  <a href="https://example.com" target="_blank">
+    <img src="https://pogchamp-utils.netlify.app/img/pogchamp.png" alt="Company 1" width="150" style="margin: 10px;" />
+  </a>
+  <a href="https://example.com" target="_blank">
+    <img src="https://pogchamp-utils.netlify.app/img/pogchamp.png" alt="Company 2" width="150" style="margin: 10px;" />
+  </a>
+  <a href="https://example.com" target="_blank">
+    <img src="https://pogchamp-utils.netlify.app/img/pogchamp.png" alt="Company 3" width="150" style="margin: 10px;" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://example.com" target="_blank">
+    <img src="https://pogchamp-utils.netlify.app/img/pogchamp.png" alt="Company 4" width="150" style="margin: 10px;" />
+  </a>
+  <a href="https://example.com" target="_blank">
+    <img src="https://pogchamp-utils.netlify.app/img/pogchamp.png" alt="Company 5" width="150" style="margin: 10px;" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="mailto:your-email@example.com?subject=Using%20Pogchamp%20at%20our%20company">
+    <b>+ Add your company</b>
+  </a>
+</p>
+
 ## Contributing
 
 Contributions are always welcome!
