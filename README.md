@@ -56,19 +56,21 @@ invertObject({ name: "anton"})
 
 <p align="center">
   <a href="https://goecho.xyz" target="_blank">
-    <img src="https://pogchamp-utils.netlify.app/img/echo-logo.png" alt="Echo" width="150" style="margin: 10px;" />
+    <img src="https://pogchamp-utils.netlify.app/img/echo-logo.png" alt="Echo" width="180" />
   </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://pinnaclehighlights.com" target="_blank">
-    <img src="https://pogchamp-utils.netlify.app/img/pinnacle-logo.png" alt="Pinnacle" width="150" style="margin: 10px;" />
+    <img src="https://pogchamp-utils.netlify.app/img/pinnacle-logo.png" alt="Pinnacle" width="180" />
   </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://reallycantmacro.com" target="_blank">
-    <img src="https://pogchamp-utils.netlify.app/img/rcm-logo.png" alt="RCM" width="150" style="margin: 10px;" />
+    <img src="https://pogchamp-utils.netlify.app/img/rcm-logo.png" alt="RCM" width="180" />
   </a>
 </p>
 
 <p align="center">
-  <a href="mailto:your-email@example.com?subject=Using%20Pogchamp%20at%20our%20company">
-    <b>+ Add your company</b>
+  <a href="mailto:anton.andresen@hotmail.com?subject=Using%20Pogchamp%20at%20our%20company">
+    <img src="https://img.shields.io/badge/Add_your_company-8A2BE2?style=for-the-badge&logo=addthis&logoColor=white" alt="Add your company" />
   </a>
 </p>
 
