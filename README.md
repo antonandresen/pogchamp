@@ -55,23 +55,14 @@ invertObject({ name: "anton"})
 ## Companies Using Pogchamp
 
 <p align="center">
-  <a href="https://example.com" target="_blank">
-    <img src="https://pogchamp-utils.netlify.app/img/pogchamp.png" alt="Company 1" width="150" style="margin: 10px;" />
+  <a href="https://goecho.xyz" target="_blank">
+    <img src="https://pogchamp-utils.netlify.app/img/echo-logo.png" alt="Echo" width="150" style="margin: 10px;" />
   </a>
-  <a href="https://example.com" target="_blank">
-    <img src="https://pogchamp-utils.netlify.app/img/pogchamp.png" alt="Company 2" width="150" style="margin: 10px;" />
+  <a href="https://pinnaclehighlights.com" target="_blank">
+    <img src="https://pogchamp-utils.netlify.app/img/pinnacle-logo.png" alt="Pinnacle" width="150" style="margin: 10px;" />
   </a>
-  <a href="https://example.com" target="_blank">
-    <img src="https://pogchamp-utils.netlify.app/img/pogchamp.png" alt="Company 3" width="150" style="margin: 10px;" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://example.com" target="_blank">
-    <img src="https://pogchamp-utils.netlify.app/img/pogchamp.png" alt="Company 4" width="150" style="margin: 10px;" />
-  </a>
-  <a href="https://example.com" target="_blank">
-    <img src="https://pogchamp-utils.netlify.app/img/pogchamp.png" alt="Company 5" width="150" style="margin: 10px;" />
+  <a href="https://reallycantmacro.com" target="_blank">
+    <img src="https://pogchamp-utils.netlify.app/img/rcm-logo.png" alt="RCM" width="150" style="margin: 10px;" />
   </a>
 </p>
 
