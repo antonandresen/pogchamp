@@ -39,4 +39,26 @@ import { unique } from 'pogchamp';
 unique([1, 1, 2, 2, 3]); // [1, 2, 3]
 unique(['a', 'b', 'a', 'c']); // ['a', 'b', 'c']
 unique([]); // []
+```
+
+## uniqueBy
+
+Returns unique elements from an array based on a property, with the option to keep either the first or last occurrence.
+
+```typescript
+import { uniqueBy } from 'pogchamp';
+
+const users = [
+  { id: 1, name: 'John' },
+  { id: 2, name: 'Jane' },
+  { id: 1, name: 'John Updated' }
+];
+
+// Keep first occurrence (default)
+uniqueBy(users, 'id');
+// [{ id: 1, name: 'John' }, { id: 2, name: 'Jane' }]
+
+// Keep last occurrence
+uniqueBy(users, 'id', 'last');
+// [{ id: 2, name: 'Jane' }, { id: 1, name: 'John Updated' }]
 ``` 
