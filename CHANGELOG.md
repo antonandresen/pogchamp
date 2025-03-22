@@ -1,5 +1,11 @@
 # pogchamp
 
+## 0.7.0
+
+### Minor Changes
+
+- added uniqueBy array utility
+
 ## 0.6.0
 
 ### Minor Changes

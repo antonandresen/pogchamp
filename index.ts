@@ -389,3 +389,45 @@ export const deepMerge = (
 export const isObject = (item: unknown): item is Record<string, any> => {
   return Boolean(item && typeof item === 'object' && !Array.isArray(item));
 }
+
+/**
+ * Returns unique elements from an array based on a property, keeping either first or last occurrence
+ * @param arr - The array to process
+ * @param prop - The property to check for uniqueness
+ * @param keepMode - Whether to keep the first or last occurrence ('first' | 'last', defaults to 'first')
+ * @example
+ * const users = [
+ *   { id: 1, name: 'John' },
+ *   { id: 2, name: 'Jane' },
+ *   { id: 1, name: 'John Updated' }
+ * ];
+ * uniqueBy(users, 'id'); // [{ id: 1, name: 'John' }, { id: 2, name: 'Jane' }]
+ * uniqueBy(users, 'id', 'last'); // [{ id: 2, name: 'Jane' }, { id: 1, name: 'John Updated' }]
+ */
+export const uniqueBy = <T extends Record<PropertyKey, any>>(
+  arr: T[],
+  prop: keyof T,
+  keepMode: 'first' | 'last' = 'first'
+): T[] => {
+  if (!Array.isArray(arr)) {
+    throw new Error('Input must be an array');
+  }
+
+  const seen = new Set<string>();
+  const workingArray = keepMode === 'last' ? [...arr].reverse() : arr;
+
+  const result = workingArray.filter(item => {
+    const value = item[prop];
+    const key = typeof value === 'object' && value !== null
+      ? JSON.stringify(value)
+      : String(value);
+      
+    if (seen.has(key)) {
+      return false;
+    }
+    seen.add(key);
+    return true;
+  });
+
+  return keepMode === 'last' ? result.reverse() : result;
+}
