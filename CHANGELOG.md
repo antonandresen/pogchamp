@@ -1,5 +1,23 @@
 # pogchamp
 
+## 0.8.0
+
+### Minor Changes
+
+- Added 30+ new utility functions across six categories:
+
+  **String:** `slugify`, `snakeCase`, `kebabCase`, `countWords`, `stripHtml`, `pluralize`
+
+  **Array:** `flatten`, `shuffle`, `intersection`, `difference`, `zip`, `sortBy`, `minBy`, `maxBy`, `sum`, `average`
+
+  **Date:** `diffInDays`, `startOfDay`, `endOfDay`, `isWeekend`, `formatRelative`
+
+  **Number:** `isEven`, `isOdd`, `formatCurrency`, `percentage`, `lerp`
+
+  **Object:** `mapValues`, `filterKeys`, `flattenObject`
+
+  **Async:** `sleep`, `throttle`, `retry`, `timeout`
+
 ## 0.7.0
 
 ### Minor Changes
